@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -11,6 +11,20 @@
 		5651724A2B1590C600816BD2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172492B1590C600816BD2 /* ContentView.swift */; };
 		5651724C2B1590C700816BD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5651724B2B1590C700816BD2 /* Assets.xcassets */; };
 		5651724F2B1590C700816BD2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5651724E2B1590C700816BD2 /* Preview Assets.xcassets */; };
+		565172662B16B9DA00816BD2 /* AvocadosView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172652B16B9DA00816BD2 /* AvocadosView.swift */; };
+		565172682B16BA0000816BD2 /* RipeningStagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172672B16B9FF00816BD2 /* RipeningStagesView.swift */; };
+		5651726A2B16BA0F00816BD2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172692B16BA0F00816BD2 /* SettingsView.swift */; };
+		5651726C2B16BA1D00816BD2 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651726B2B16BA1D00816BD2 /* AppView.swift */; };
+		5651726E2B16DCFE00816BD2 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651726D2B16DCFE00816BD2 /* HeaderView.swift */; };
+		565172702B16DEB200816BD2 /* HeaderModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651726F2B16DEB200816BD2 /* HeaderModel.swift */; };
+		565172722B16DEBF00816BD2 /* HeaderData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172712B16DEBF00816BD2 /* HeaderData.swift */; };
+		565172742B16E15200816BD2 /* DishesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172732B16E15200816BD2 /* DishesView.swift */; };
+		565172762B16E6AC00816BD2 /* FactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172752B16E6AC00816BD2 /* FactsView.swift */; };
+		565172782B16E76D00816BD2 /* FactModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172772B16E76D00816BD2 /* FactModel.swift */; };
+		5651727A2B16E77E00816BD2 /* FactData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172792B16E77E00816BD2 /* FactData.swift */; };
+		5651727C2B16E9E600816BD2 /* ReceipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651727B2B16E9E600816BD2 /* ReceipeModel.swift */; };
+		5651727E2B16EA1B00816BD2 /* ReceipeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651727D2B16EA1B00816BD2 /* ReceipeData.swift */; };
+		565172802B16EA8D00816BD2 /* ReceipeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651727F2B16EA8D00816BD2 /* ReceipeCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +34,20 @@
 		5651724B2B1590C700816BD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5651724E2B1590C700816BD2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5651725D2B16B35500816BD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		565172652B16B9DA00816BD2 /* AvocadosView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvocadosView.swift; sourceTree = "<group>"; };
+		565172672B16B9FF00816BD2 /* RipeningStagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningStagesView.swift; sourceTree = "<group>"; };
+		565172692B16BA0F00816BD2 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		5651726B2B16BA1D00816BD2 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		5651726D2B16DCFE00816BD2 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		5651726F2B16DEB200816BD2 /* HeaderModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderModel.swift; sourceTree = "<group>"; };
+		565172712B16DEBF00816BD2 /* HeaderData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderData.swift; sourceTree = "<group>"; };
+		565172732B16E15200816BD2 /* DishesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DishesView.swift; sourceTree = "<group>"; };
+		565172752B16E6AC00816BD2 /* FactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactsView.swift; sourceTree = "<group>"; };
+		565172772B16E76D00816BD2 /* FactModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactModel.swift; sourceTree = "<group>"; };
+		565172792B16E77E00816BD2 /* FactData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FactData.swift; sourceTree = "<group>"; };
+		5651727B2B16E9E600816BD2 /* ReceipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeModel.swift; sourceTree = "<group>"; };
+		5651727D2B16EA1B00816BD2 /* ReceipeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeData.swift; sourceTree = "<group>"; };
+		5651727F2B16EA8D00816BD2 /* ReceipeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +80,11 @@
 		565172462B1590C600816BD2 /* Avocados */ = {
 			isa = PBXGroup;
 			children = (
+				565172642B16B9B000816BD2 /* View */,
+				565172632B16B9AA00816BD2 /* Model */,
+				565172622B16B9A200816BD2 /* Data */,
 				5651725D2B16B35500816BD2 /* Info.plist */,
 				565172472B1590C600816BD2 /* AvocadosApp.swift */,
-				565172492B1590C600816BD2 /* ContentView.swift */,
 				5651724B2B1590C700816BD2 /* Assets.xcassets */,
 				5651724D2B1590C700816BD2 /* Preview Content */,
 			);
@@ -67,6 +97,42 @@
 				5651724E2B1590C700816BD2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		565172622B16B9A200816BD2 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				565172712B16DEBF00816BD2 /* HeaderData.swift */,
+				565172792B16E77E00816BD2 /* FactData.swift */,
+				5651727D2B16EA1B00816BD2 /* ReceipeData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		565172632B16B9AA00816BD2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				5651726F2B16DEB200816BD2 /* HeaderModel.swift */,
+				565172772B16E76D00816BD2 /* FactModel.swift */,
+				5651727B2B16E9E600816BD2 /* ReceipeModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		565172642B16B9B000816BD2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				565172492B1590C600816BD2 /* ContentView.swift */,
+				565172652B16B9DA00816BD2 /* AvocadosView.swift */,
+				565172672B16B9FF00816BD2 /* RipeningStagesView.swift */,
+				565172692B16BA0F00816BD2 /* SettingsView.swift */,
+				5651726B2B16BA1D00816BD2 /* AppView.swift */,
+				5651726D2B16DCFE00816BD2 /* HeaderView.swift */,
+				565172732B16E15200816BD2 /* DishesView.swift */,
+				565172752B16E6AC00816BD2 /* FactsView.swift */,
+				5651727F2B16EA8D00816BD2 /* ReceipeCardView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,7 +171,7 @@
 				};
 			};
 			buildConfigurationList = 5651723F2B1590C600816BD2 /* Build configuration list for PBXProject "Avocados" */;
-			compatibilityVersion = "Xcode 14.0";
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -139,8 +205,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5651726A2B16BA0F00816BD2 /* SettingsView.swift in Sources */,
+				5651727E2B16EA1B00816BD2 /* ReceipeData.swift in Sources */,
+				565172802B16EA8D00816BD2 /* ReceipeCardView.swift in Sources */,
 				5651724A2B1590C600816BD2 /* ContentView.swift in Sources */,
+				5651726C2B16BA1D00816BD2 /* AppView.swift in Sources */,
+				565172682B16BA0000816BD2 /* RipeningStagesView.swift in Sources */,
 				565172482B1590C600816BD2 /* AvocadosApp.swift in Sources */,
+				565172662B16B9DA00816BD2 /* AvocadosView.swift in Sources */,
+				565172702B16DEB200816BD2 /* HeaderModel.swift in Sources */,
+				565172722B16DEBF00816BD2 /* HeaderData.swift in Sources */,
+				565172742B16E15200816BD2 /* DishesView.swift in Sources */,
+				5651727C2B16E9E600816BD2 /* ReceipeModel.swift in Sources */,
+				565172782B16E76D00816BD2 /* FactModel.swift in Sources */,
+				565172762B16E6AC00816BD2 /* FactsView.swift in Sources */,
+				5651726E2B16DCFE00816BD2 /* HeaderView.swift in Sources */,
+				5651727A2B16E77E00816BD2 /* FactData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +360,7 @@
 				INFOPLIST_FILE = Avocados/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -309,6 +390,7 @@
 				INFOPLIST_FILE = Avocados/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (

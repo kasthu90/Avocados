@@ -31,8 +31,7 @@ struct AppView: View {
                     Image("tabicon-settings")
                     Text("Settings")
                 }
-           
-                .accentColor(Color.primary)
+            .accentColor(Color.primary)
         }
         
     }

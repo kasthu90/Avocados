@@ -28,6 +28,9 @@
 		565172822B16ED0800816BD2 /* ReceipeRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172812B16ED0800816BD2 /* ReceipeRatingView.swift */; };
 		565172842B16ED9700816BD2 /* ReceipeCookingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172832B16ED9700816BD2 /* ReceipeCookingView.swift */; };
 		565172862B16F03B00816BD2 /* RecipeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172852B16F03B00816BD2 /* RecipeDetailView.swift */; };
+		565172882B17529400816BD2 /* RipeningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172872B17529400816BD2 /* RipeningView.swift */; };
+		5651728A2B17539600816BD2 /* RipeningModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 565172892B17539600816BD2 /* RipeningModel.swift */; };
+		5651728C2B1753C000816BD2 /* RipeningData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5651728B2B1753C000816BD2 /* RipeningData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +57,9 @@
 		565172812B16ED0800816BD2 /* ReceipeRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeRatingView.swift; sourceTree = "<group>"; };
 		565172832B16ED9700816BD2 /* ReceipeCookingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceipeCookingView.swift; sourceTree = "<group>"; };
 		565172852B16F03B00816BD2 /* RecipeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeDetailView.swift; sourceTree = "<group>"; };
+		565172872B17529400816BD2 /* RipeningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningView.swift; sourceTree = "<group>"; };
+		565172892B17539600816BD2 /* RipeningModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningModel.swift; sourceTree = "<group>"; };
+		5651728B2B1753C000816BD2 /* RipeningData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RipeningData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,7 @@
 				565172712B16DEBF00816BD2 /* HeaderData.swift */,
 				565172792B16E77E00816BD2 /* FactData.swift */,
 				5651727D2B16EA1B00816BD2 /* ReceipeData.swift */,
+				5651728B2B1753C000816BD2 /* RipeningData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -121,6 +128,7 @@
 				5651726F2B16DEB200816BD2 /* HeaderModel.swift */,
 				565172772B16E76D00816BD2 /* FactModel.swift */,
 				5651727B2B16E9E600816BD2 /* ReceipeModel.swift */,
+				565172892B17539600816BD2 /* RipeningModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -140,6 +148,7 @@
 				565172812B16ED0800816BD2 /* ReceipeRatingView.swift */,
 				565172832B16ED9700816BD2 /* ReceipeCookingView.swift */,
 				565172852B16F03B00816BD2 /* RecipeDetailView.swift */,
+				565172872B17529400816BD2 /* RipeningView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -216,8 +225,10 @@
 			files = (
 				5651726A2B16BA0F00816BD2 /* SettingsView.swift in Sources */,
 				565172842B16ED9700816BD2 /* ReceipeCookingView.swift in Sources */,
+				5651728A2B17539600816BD2 /* RipeningModel.swift in Sources */,
 				5651727E2B16EA1B00816BD2 /* ReceipeData.swift in Sources */,
 				565172802B16EA8D00816BD2 /* ReceipeCardView.swift in Sources */,
+				5651728C2B1753C000816BD2 /* RipeningData.swift in Sources */,
 				5651724A2B1590C600816BD2 /* ContentView.swift in Sources */,
 				5651726C2B16BA1D00816BD2 /* AppView.swift in Sources */,
 				565172682B16BA0000816BD2 /* RipeningStagesView.swift in Sources */,
@@ -226,6 +237,7 @@
 				565172702B16DEB200816BD2 /* HeaderModel.swift in Sources */,
 				565172722B16DEBF00816BD2 /* HeaderData.swift in Sources */,
 				565172742B16E15200816BD2 /* DishesView.swift in Sources */,
+				565172882B17529400816BD2 /* RipeningView.swift in Sources */,
 				5651727C2B16E9E600816BD2 /* ReceipeModel.swift in Sources */,
 				565172822B16ED0800816BD2 /* ReceipeRatingView.swift in Sources */,
 				565172782B16E76D00816BD2 /* FactModel.swift in Sources */,
